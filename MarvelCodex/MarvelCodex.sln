@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelCodex", "MarvelCodex.csproj", "{597E95E3-C986-4343-992C-47876B120039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelCodex.Contracts", "..\MarvelCodex.Contracts\MarvelCodex.Contracts.csproj", "{D3C7DFF2-F8AD-42B9-9C6C-A957A35D47FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{597E95E3-C986-4343-992C-47876B120039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597E95E3-C986-4343-992C-47876B120039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597E95E3-C986-4343-992C-47876B120039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597E95E3-C986-4343-992C-47876B120039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C7DFF2-F8AD-42B9-9C6C-A957A35D47FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C7DFF2-F8AD-42B9-9C6C-A957A35D47FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C7DFF2-F8AD-42B9-9C6C-A957A35D47FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C7DFF2-F8AD-42B9-9C6C-A957A35D47FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
